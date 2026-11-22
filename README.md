@@ -88,6 +88,8 @@ curl -fsS http://127.0.0.1:1337/
 
 **Проверка:**
 ```
+docker compose down -v
+docker compose up -d --build --wait
 curl -fsS -X POST http://127.0.0.1:8080/increment
 curl -fsS -X POST http://127.0.0.1:8080/increment
 docker compose down
