@@ -107,6 +107,7 @@ curl -fsS -X POST http://127.0.0.1:8080/increment
 ```
 
 **Вывод:**
+Начинаем с curl после создания контейнера.
 ```
 {"greeting": "Hi, supervisor!", "count": 1, "hostname": "bf64b8765d23", "storage": "redis"}
 
